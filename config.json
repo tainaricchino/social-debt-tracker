@@ -1,0 +1,20 @@
+{
+  "user_settings": {
+    "daily_report_hour": "10:00",
+    "privacy_mode": true,
+    "timezone": "America/Sao_Paulo",
+    "report_interval_days": 1
+  },
+  "circles": [
+    {
+      "name": "Círculo Íntimo",
+      "target_days": 3,
+      "contacts": ["Mãe", "Vovó Teresa"]
+    },
+    {
+      "name": "Amigos Próximos",
+      "target_days": 10,
+      "contacts": ["Grupo do Futebol", "Ana Clara"]
+    }
+  ]
+}

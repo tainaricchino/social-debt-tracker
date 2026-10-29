@@ -1,0 +1,19 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Telethon session — account credentials
+*.session
+*.session-journal
+
+# Local metadata cache and feedback state
+state.json
+cache/
+
+*.tmp
+.idea/
+.vscode/

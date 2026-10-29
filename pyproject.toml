@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "social-debt-tracker"
+version = "0.1.0"
+description = "Acompanha o tempo desde o último contato no Telegram, só com metadados."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Tainá" }]
+dependencies = [
+    "telethon>=1.36.0",
+    "python-telegram-bot>=21.6",
+    "rich>=13.7.0",
+    "python-dotenv>=1.0.1",
+    "tzdata>=2024.1",
+]
+
+[project.scripts]
+social-debt = "social_debt_tracker.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["social_debt_tracker*"]
